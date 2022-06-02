@@ -198,6 +198,15 @@ body {
   left: 1rem;
 }
 
+.carousel-button > img {
+  opacity: 0.5;
+}
+
+.carousel-button:hover > img,
+.carousel-button:focus > img {
+  opacity: 1;
+}
+
 .carousel-button.next {
   right: 1rem;
 }
